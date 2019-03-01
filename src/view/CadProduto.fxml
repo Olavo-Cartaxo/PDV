@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="225.0" prefWidth="326.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="controller.CadProdutoController">
+   <children>
+      <Text fx:id="cod_barra" layoutX="36.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Código de Barras:" />
+      <Text fx:id="descricao" layoutX="36.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Descrição:" />
+      <Text fx:id="validade" layoutX="38.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Validade:" />
+      <Text fx:id="preco" layoutX="36.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Preço:" />
+      <TextField fx:id="txt_cod_barra" layoutX="141.0" layoutY="33.0" />
+      <TextField fx:id="txt_descricao" layoutX="141.0" layoutY="67.0" />
+      <TextField fx:id="txt_preco" layoutX="141.0" layoutY="100.0" />
+      <TextField fx:id="txt_validade" layoutX="141.0" layoutY="133.0" />
+      <Button fx:id="cadastrar" layoutX="122.0" layoutY="177.0" mnemonicParsing="false" text="CADASTRAR" />
+   </children>
+</AnchorPane>
